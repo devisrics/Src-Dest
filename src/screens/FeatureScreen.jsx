@@ -8,7 +8,7 @@ const features = [
     title: 'AI Itinerary Generator',
     description:
       'Create personalized day-by-day travel plans based on your interests, budget, and duration.',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop',
+    image: '/Feature/AiItinerary.jpg',
     active: false,
   },
   {
@@ -16,7 +16,7 @@ const features = [
     title: 'Smart Budget Estimation',
     description:
       'Calculate transportation, accommodation, food, and activity costs before your trip.',
-    image: '../../public/Feature/smartbudget.jpg',
+    image: '/Feature/smartbudget.jpg',
     active: false,
   },
   {
@@ -24,7 +24,7 @@ const features = [
     title: 'Hotel Preferences',
     description:
       'Find the best hotels based on location, ratings, and budget preferences.',
-    image: '../../public/Feature/HotelRecommendations.jpg',
+    image: '/Feature/HotelRecommendations.jpg',
     active: false,
   },
   {
@@ -32,7 +32,7 @@ const features = [
     title: 'Interactive Travel Maps',
     description:
       'Explore attractions, routes, and nearby places directly on interactive maps.',
-    image: '../../public/Feature/InteractiveMap.jpg',
+    image: '/Feature/InteractiveMap.jpg',
     active: false,
   },
   {
@@ -40,7 +40,7 @@ const features = [
     title: 'Smart Travel Insights',
     description:
       'Get weather forecasts, local tips, and destination information instantly.',
-    image: '../../public/Feature/TravelInsight.jpg',
+    image: '/Feature/TravelInsight.jpg',
     active: false,
   },
   {
@@ -48,7 +48,7 @@ const features = [
     title: 'Group Trip Planning',
     description:
       'Collaborate with friends and family to create the perfect travel experience.',
-    image: '../../public/Feature/Groupplanning.jpg',
+    image: '/Feature/Groupplanning.jpg',
     active: false,
   },
 ];
@@ -58,7 +58,7 @@ export default function FeatureScreen() {
     <div className="min-h-screen py-24 px-4 sm:px-6 lg:px-8 bg-sky-400/4 overflow-hidden">
       <div className="max-w-[1600px] mx-auto">
         <div className="text-center mb-24">
-          <TypewriterHeading 
+          <TypewriterHeading
             text="Powerful Features"
             className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight block"
           />

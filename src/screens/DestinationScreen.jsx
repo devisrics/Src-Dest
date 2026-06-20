@@ -7,7 +7,7 @@ const DestinationScreen = () => {
       id: 1,
       country: 'Agra, India',
       flag: '🇮🇳',
-      image: '../../public/Destination/India.jpg',
+      image: '/Destination/India.jpg',
       description:
         'Experience India’s rich heritage through iconic landmarks, vibrant traditions, and diverse landscapes. Discover breathtaking architecture, colorful culture, and unforgettable journeys across every region.'
     },
@@ -15,7 +15,7 @@ const DestinationScreen = () => {
       id: 2,
       country: 'Paris, France',
       flag: '🇫🇷',
-      image: '../../public/Destination/France.jpg',
+      image: '/Destination/France.jpg',
       description:
         'Explore charming streets, world-famous landmarks, and exceptional cuisine in the heart of France. Enjoy timeless elegance, artistic treasures, and memorable experiences around every corner.'
     },
@@ -23,7 +23,7 @@ const DestinationScreen = () => {
       id: 3,
       country: 'Tokyo, Japan',
       flag: '🇯🇵',
-      image: '../../public/Destination/Japan.jpg',
+      image: '/Destination/Japan.jpg',
       description:
         'Discover a vibrant city where modern innovation blends seamlessly with ancient traditions. Experience stunning attractions, unique culture, and remarkable adventures throughout Tokyo.'
     }
@@ -40,7 +40,7 @@ const DestinationScreen = () => {
             <span>Trending Destinations</span>
           </div>
 
-          <TypewriterHeading 
+          <TypewriterHeading
             text="Explore the World's Most Loved Places"
             className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight block"
           />
