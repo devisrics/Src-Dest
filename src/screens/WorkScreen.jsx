@@ -59,7 +59,7 @@ const WorkScreen = () => {
         <div className="mb-5 md:mb-5">
           <TypewriterHeading
             text="Plan Your Dream Vacation in Minutes"
-            className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 mb-5 tracking-tight text-center block"
+            className="uppercase text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 mb-5 tracking-tight text-center block"
           />
           <p className="text-lg md:text-xl text-slate-600 leading-relaxed max-w-3xl mx-auto text-center">
             From destination selection to final itinerary, Src-Dest handles the hard work for you.

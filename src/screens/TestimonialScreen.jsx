@@ -45,7 +45,7 @@ const TestimonialScreen = () => {
 
                     <TypewriterHeading
                         text="What Our Customers Say"
-                        className="text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-[1.15] mb-6 max-w-[15ch]"
+                        className="uppercase text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-[1.15] mb-6 max-w-[15ch]"
                     />
 
                     <p className="text-base md:text-lg text-slate-600 max-w-md leading-relaxed mb-8">

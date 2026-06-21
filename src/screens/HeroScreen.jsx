@@ -17,10 +17,10 @@ function HeroScreen() {
 
             {/* Heading & Description */}
             <div>
-              <TypewriterHeading 
+              <TypewriterHeading
                 as="h1"
                 text="Plan Your Perfect Trip with AI"
-                className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight max-w-xl"
+                className="uppercase text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight max-w-xl"
               />
 
               <p className="pt-6 text-lg md:text-xl text-slate-600 leading-relaxed max-w-lg">

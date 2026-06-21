@@ -60,7 +60,7 @@ export default function FeatureScreen() {
         <div className="text-center mb-24">
           <TypewriterHeading
             text="Powerful Features"
-            className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight block"
+            className="uppercase text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight block"
           />
           <p className="text-lg md:text-xl mt-5 text-slate-600 max-w-3xl mx-auto leading-relaxed">
             Src-Dest combines artificial intelligence, travel expertise, and real-time insights to create unforgettable travel experiences.

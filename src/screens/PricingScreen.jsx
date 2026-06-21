@@ -55,7 +55,7 @@ const PricingScreen = () => {
                 <div className="text-center max-w-3xl mx-auto mb-16 md:mb-24">
                     <TypewriterHeading
                         text="Flexible Plans for Every Traveler"
-                        className="text-3xl md:text-5xl lg:text-4xl font-extrabold text-slate-900 mb-6 tracking-tight block"
+                        className="uppercase text-3xl md:text-5xl lg:text-4xl font-extrabold text-slate-900 mb-6 tracking-tight block"
                     />
                     <p className="text-lg md:text-xl text-slate-600 leading-relaxed">
                         Choose the plan that fits your travel needs.

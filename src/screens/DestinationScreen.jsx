@@ -37,7 +37,7 @@ const DestinationScreen = () => {
         <div className="flex flex-col items-center text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-sky-50 text-sky-600 px-4 py-2 rounded-full font-semibold mb-6 border border-sky-100">
             <span className="text-lg">🌍</span>
-            <span>Trending Destinations</span>
+            <span className="uppercase">Trending Destinations</span>
           </div>
 
           <TypewriterHeading
