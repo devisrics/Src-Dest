@@ -52,10 +52,10 @@ const PricingScreen = () => {
         <section className="w-full pt-8 pb-20 md:pt-12 md:pb-32 px-4 sm:px-6 lg:px-8 bg-sky-50">
             <div className="max-w-7xl mx-auto">
                 {/* Header Section */}
-                <div className="text-center max-w-3xl mx-auto mb-16 md:mb-24">
+                <div className="text-center max-w-5xl mx-auto mb-16 md:mb-24">
                     <TypewriterHeading
                         text="Flexible Plans for Every Traveler"
-                        className="uppercase text-3xl md:text-5xl lg:text-4xl font-extrabold text-slate-900 mb-6 tracking-tight block"
+                        className="uppercase text-3xl md:text-5xl lg:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight block"
                     />
                     <p className="text-lg md:text-xl text-slate-600 leading-relaxed">
                         Choose the plan that fits your travel needs.
